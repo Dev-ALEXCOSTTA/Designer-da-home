@@ -4,7 +4,14 @@
     font-family: Arial,sans-serif ;
  }
  body{
-    background: #f1f1f1;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    background-image: url(./UNAMA\ 50.jpeg);
+    
+
+ }
+ div{
+    background-color: #ffffff;
     
     
 }
@@ -49,7 +56,7 @@ h2{
 }
 .btn-ant:hover,.btn-pro:hover{
     background: #cbd1d2;
-    color: #f9f9f9;
+    color: #00f50c;
 
 }
 .calendario table{
@@ -57,9 +64,10 @@ h2{
     border-collapse: collapse;
 }
 .calendario thead{
-    background: white;
-    font-weight:600 ;
-    text-transform: uppercase;
+    background-color: #20d36a;
+
+    font-weight:600;
+    text-transform:uppercase;
    
 }
 
@@ -68,6 +76,8 @@ h2{
     height: 71.4px;
     text-align:center;
     width: 71.4px;
+
+    
 }
 .calendario tbody td{
     cursor: pointer;
@@ -111,3 +121,4 @@ h2{
     background: #f9f9f9;
 
 }
+
